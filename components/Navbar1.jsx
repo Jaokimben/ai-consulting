@@ -194,7 +194,7 @@ export function Navbar1() {
             >
               Learn
             </Button>
-            <Button title="Sign Up" size="sm" className="w-full">
+            <Button title="Sign Up" size="sm" className="w-full text-xs">
               Sign Up
             </Button>
           </div>
