@@ -10,8 +10,8 @@ export default function Page() {
       <section className="relative px-[2vw] pt-8 pb-20 md:py-24 bg-[#18101d] rounded-3xl m-4 shadow-lg overflow-hidden">
         {/* Barre de navigation personnalisée */}
         <nav className="flex items-center justify-between mb-16">
-          {/* Logo factorise */}
-          <div className="text-white text-3xl font-bold tracking-tight font-sans ml-2 lowercase">factorise</div>
+          {/* Logo image */}
+          <img src="/FactoRise-logo.png" alt="FactoRise.io logo" className="h-14 w-auto ml-2" />
           {/* Menu */}
           <ul className="hidden md:flex gap-10 text-white text-lg font-medium">
             <li><a href="#">AI Solutions</a></li>
