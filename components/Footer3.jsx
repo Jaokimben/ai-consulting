@@ -18,9 +18,10 @@ export function Footer3() {
             <div className="mb-6 md:mb-8">
               <a href="#">
                 <img
-                  src="https://d22po4pjz3o32e.cloudfront.net/logo-image.svg"
-                  alt="Logo image"
+                  src="/FactoRise-logo.png"
+                  alt="FactoRise.io logo"
                   className="inline-block"
+                  style={{ height: "40px" }}
                 />
               </a>
             </div>
