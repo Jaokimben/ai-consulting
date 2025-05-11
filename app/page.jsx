@@ -6,28 +6,52 @@ import { Button } from "@relume_io/relume-ui";
 export default function Page() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar1 />
-      <main className="flex-1">
-        {/* Hero Section */}
-        <section className="px-[5%] py-20 md:py-32 lg:py-40 bg-background-primary">
-          <div className="container mx-auto max-w-7xl">
-            <div className="max-w-3xl">
-              <h1 className="mb-6 text-5xl font-bold md:text-7xl lg:text-8xl">
-                AI Consulting for the Modern Business
-              </h1>
-              <p className="mb-8 text-lg md:text-xl">
-                Transform your business with cutting-edge AI solutions tailored to your needs.
-              </p>
-              <div className="flex flex-col gap-4 sm:flex-row">
-                <Button size="lg">Get Started</Button>
-                <Button variant="secondary" size="lg">
-                  Learn More
-                </Button>
-              </div>
-            </div>
+      {/* Hero Section Personnalisée */}
+      <section className="relative px-[2vw] pt-8 pb-20 md:py-24 bg-[#18101d] rounded-3xl m-4 shadow-lg overflow-hidden">
+        {/* Barre de navigation personnalisée */}
+        <nav className="flex items-center justify-between mb-16">
+          {/* Logo */}
+          <div className="text-white text-3xl font-bold font-[cursive] ml-2">Logo</div>
+          {/* Menu */}
+          <ul className="hidden md:flex gap-10 text-white text-lg font-medium">
+            <li><a href="#">AI Solutions</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Case Studies</a></li>
+            <li className="relative group">
+              <a href="#" className="flex items-center">Resources <span className="ml-1">▼</span></a>
+              {/* Dropdown possible ici */}
+            </li>
+          </ul>
+          {/* Boutons */}
+          <div className="flex gap-3">
+            <Button variant="secondary" size="md" className="rounded-full border-2 border-white bg-transparent text-white hover:bg-white hover:text-[#18101d] px-6">Learn</Button>
+            <Button size="md" className="rounded-full bg-white text-[#18101d] px-6">Sign Up</Button>
           </div>
-        </section>
-
+        </nav>
+        {/* Contenu principal hero */}
+        <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+          {/* Texte à gauche */}
+          <div className="flex-1 max-w-2xl">
+            <h1 className="text-white text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+              Empowering Your Business with<br />Smart AI Solutions
+            </h1>
+            <p className="text-gray-200 text-lg md:text-xl mb-8">
+              At our core, we are dedicated to helping businesses select the most effective AI tools to enhance every aspect of their operations. Our mission is to optimize customer, employee, and business outcomes.
+            </p>
+            {/* Vous pouvez ajouter un bouton ici si besoin */}
+          </div>
+          {/* Image à droite */}
+          <div className="flex-1 flex justify-center">
+            <img
+              src="https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&w=600&q=80"
+              alt="Team working on AI solutions"
+              className="rounded-2xl shadow-xl object-cover w-[350px] h-[300px] md:w-[420px] md:h-[340px] lg:w-[500px] lg:h-[400px]"
+            />
+          </div>
+        </div>
+      </section>
+      {/* Le reste de la page (services, études de cas, etc.) */}
+      <main className="flex-1">
         {/* Services Section */}
         <section className="px-[5%] py-20 md:py-32 bg-background-secondary">
           <div className="container mx-auto max-w-7xl">
