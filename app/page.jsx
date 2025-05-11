@@ -40,7 +40,7 @@ export default function Page() {
             </p>
             {/* Vous pouvez ajouter un bouton ici si besoin */}
           </div>
-          {/* Image à droite */}
+          {/* Image illustrative à droite */}
           <div className="flex-1 flex justify-center">
             <img
               src="https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg?auto=compress&w=600&q=80"
