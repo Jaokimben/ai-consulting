@@ -11,7 +11,7 @@ export default function Page() {
         {/* Barre de navigation personnalisée */}
         <nav className="flex items-center justify-between mb-16">
           {/* Logo image */}
-          <span className="text-3xl font-extrabold italic text-blue-900 tracking-wide font-serif ml-2">Factorise</span>
+          <img src="/cropped-FactoRise-1.png" alt="FactoRise.io logo" className="h-14 w-auto ml-2" />
           {/* Menu */}
           <ul className="hidden md:flex gap-10 text-white text-lg font-medium">
             <li><a href="#">AI Solutions</a></li>

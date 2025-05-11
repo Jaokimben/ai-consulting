@@ -48,7 +48,11 @@ export function Navbar1() {
       <div className="size-full lg:flex lg:items-center lg:justify-between">
         <div className="flex min-h-16 items-center justify-between px-[5%] md:min-h-18 lg:min-h-full lg:px-0">
           <a href="#">
-            <span className="text-2xl font-extrabold italic text-blue-900 tracking-wide font-serif">Factorise</span>
+            <img
+              src="/cropped-FactoRise-1.png"
+              alt="FactoRise.io logo"
+              style={{ height: "40px" }}
+            />
           </a>
           <button
             className="-mr-2 flex size-12 flex-col items-center justify-center lg:hidden"
