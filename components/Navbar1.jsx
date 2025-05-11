@@ -1,4 +1,5 @@
 "use client";
+// MAJ légère pour commit et sync
 
 import { Button, useMediaQuery } from "@relume_io/relume-ui";
 import { AnimatePresence, motion } from "framer-motion";
