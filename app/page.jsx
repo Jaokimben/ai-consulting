@@ -1,6 +1,6 @@
 import React from "react";
-import { Navbar1 } from "./components/Navbar1";
-import { Footer3 } from "./components/Footer3";
+import { Navbar1 } from "../components/Navbar1";
+import { Footer3 } from "../components/Footer3";
 import { Button } from "@relume_io/relume-ui";
 
 export default function Page() {
@@ -113,4 +113,4 @@ export default function Page() {
       <Footer3 />
     </div>
   );
-}
+} 
