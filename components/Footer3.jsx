@@ -17,12 +17,7 @@ export function Footer3() {
           <div>
             <div className="mb-6 md:mb-8">
               <a href="#">
-                <img
-                  src="/FactoRise-logo.png"
-                  alt="FactoRise.io logo"
-                  className="inline-block"
-                  style={{ height: "40px" }}
-                />
+                <span className="text-2xl font-extrabold italic text-blue-900 tracking-wide font-serif">Factorise</span>
               </a>
             </div>
             <div className="mb-6 md:mb-8">
